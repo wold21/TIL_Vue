@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-stater",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wold21/TIL_Vue.git",
+  "author": "Tazo <wold21@gmail.com>",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "eject": "vuepress eject"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
