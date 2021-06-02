@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/wold21/TIL_Vue.git",
-  "author": "Tazo <wold21@gmail.com>",
+  "author": "wold21 <wold2180@gmail.com>",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
