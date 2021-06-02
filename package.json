@@ -5,7 +5,7 @@
   "repository": "https://github.com/wold21/TIL_Vue.git",
   "author": "wold21 <wold2180@gmail.com>",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --port 8080",
     "build": "vuepress build docs",
     "eject": "vuepress eject"
   },
