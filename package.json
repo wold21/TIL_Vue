@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vuepress dev docs --port 8080",
     "build": "vuepress build docs",
-    "eject": "vuepress eject"
+    "eject": "vuepress eject docs"
   },
   "license": "MIT",
   "devDependencies": {

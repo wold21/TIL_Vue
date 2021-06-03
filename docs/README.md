@@ -1,25 +1,17 @@
-# 메인 페이지
+#
 
-# 문서 제목
+# 김 혁 / Hyuk Kim
 
-주제 내용
+### Contact.
 
-## 소제목 1
+✉️ wold2180@gmail.com
 
-소제목 내용 1
+📱 010 - 4658 - 9513
 
-## 소제목 2
+### Channel.
 
-소제목 내용 2
+GitHub. [https://github.com/wold21](https://github.com/wold21)
 
-### 소제목 2-1
+Blog. [https://companion-tazo.tistory.com/](https://companion-tazo.tistory.com/)
 
-소제목 내용 2-1
-
-### 소제목 2-2
-
-소제목 내용 2-2
-
-test
-test
-test
+Youtube. [https://www.youtube.com/channel/UC_Cpl1AhDkTdVe2jia5pNwQ](https://www.youtube.com/channel/UC_Cpl1AhDkTdVe2jia5pNwQ)
