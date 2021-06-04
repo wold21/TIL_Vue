@@ -21,6 +21,11 @@ module.exports = {
           "/Network/WebServer&WAS/webserver_was.md",
         ],
       },
+      {
+        title: "DataStructure",
+        collapsable: true,
+        children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
+      },
     ],
     nav: [
       {
