@@ -16,9 +16,14 @@ module.exports = {
       {
         title: "Network",
         collapsable: true,
+        children: ["/Network/HTTP/http.md"],
+      },
+      {
+        title: "Web",
+        collapsable: false,
         children: [
-          "/Network/HTTP/http.md",
-          "/Network/WebServer&WAS/webserver_was.md",
+          "/Web/WebContainer/WebContainer.md",
+          "/Web/WebServer&WAS/webserver_was.md",
         ],
       },
       {
