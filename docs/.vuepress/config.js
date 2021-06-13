@@ -16,11 +16,14 @@ module.exports = {
       {
         title: "Network",
         collapsable: true,
-        children: ["/Network/HTTP/http.md"],
+        children: [
+          "/Network/HTTP/http.md",
+          "/Network/TCPandUDP/TCP_UDP.md"
+        ],
       },
       {
         title: "Web",
-        collapsable: false,
+        collapsable: true,
         children: [
           "/Web/WebContainer/WebContainer.md",
           "/Web/WebServer&WAS/webserver_was.md",
@@ -42,6 +45,5 @@ module.exports = {
         link: "https://companion-tazo.tistory.com/",
       },
     ],
-    sidebarDepth: 2,
   },
 };
