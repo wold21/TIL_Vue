@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-  title: "Welcome to ", // 사이트 타이틀
+  title: "Welcome to ", 
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
   dest: "build",
@@ -26,6 +26,11 @@ module.exports = {
         collapsable: true,
         children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
       },
+      {
+        title: "🌱 Spring",
+        collapsable: true,
+        children: ["/Spring/SpringBoot/SpringBootStart.md"]
+      }
     ],
     nav: [
       {
