@@ -29,7 +29,10 @@ module.exports = {
       {
         title: "🌱 Spring",
         collapsable: true,
-        children: ["/Spring/SpringBoot/SpringBootStart.md"]
+        children: [
+          "/Spring/SpringBoot/SpringBootStart.md",
+          "/Spring/Gradle/GradleProjectStructure.md"
+        ]
       }
     ],
     nav: [
