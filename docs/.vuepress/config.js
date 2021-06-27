@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-  title: "Welcome to ", 
+  title: "Welcome to ",
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
   dest: "build",
@@ -30,10 +30,13 @@ module.exports = {
         title: "🌱 Spring",
         collapsable: true,
         children: [
+          "/Spring/IoC_DI/DI.md",
+          "/Spring/IoC_DI/IoC.md",
+          "/Spring/Container/SpringContainer.md",
           "/Spring/SpringBoot/SpringBootStart.md",
-          "/Spring/Gradle/GradleProjectStructure.md"
-        ]
-      }
+          "/Spring/Gradle/GradleProjectStructure.md",
+        ],
+      },
     ],
     nav: [
       {
