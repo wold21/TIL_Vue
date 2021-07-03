@@ -5,8 +5,8 @@ home: false
 <template>
   <div>
     <div class="titleContainer">
-      <h1>오늘 배운 건
-        <br>오늘 적자
+      <h1>난 오늘도
+        <br>구글 없인 못살아
       </h1>
       <div class="infoContainer">
         <div class="name">Tazo's TIL</div>
@@ -34,7 +34,7 @@ home: false
 }
 h1 {
   font-family: "SLEIGothicTTF", cursive;
-  font-weight: 400;
+  font-weight: 380;
   border-bottom: 8px solid #5485ce;
   word-break: keep-all;
   font-size: 4rem;

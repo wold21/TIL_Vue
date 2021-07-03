@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-  title: "Welcome to ",
+  title: "코드를 부르자",
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
   dest: "build",
@@ -19,6 +19,7 @@ module.exports = {
         children: [
           "/Web/WebContainer/WebContainer.md",
           "/Web/WebServer&WAS/webserver_was.md",
+          "/Web/WarJar/War와Jar.md",
         ],
       },
       {
