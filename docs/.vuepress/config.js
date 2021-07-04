@@ -38,6 +38,13 @@ module.exports = {
           "/Spring/Gradle/GradleProjectStructure.md",
         ],
       },
+      {
+        title: "🍃 Thymeleaf",
+        collapsable: true,
+        children:[
+          "/Thymeleaf/Thymeleaf.md"
+        ]
+      }
     ],
     nav: [
       {
