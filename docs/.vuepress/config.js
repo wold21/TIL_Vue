@@ -23,6 +23,12 @@ module.exports = {
         ],
       },
       {
+        title: "🥪 JavaScript",
+        collapsable: true,
+        children:[ "/JavaScript/DOM/DOM.md",]
+        
+      },
+      {
         title: "🧩 DataStructure",
         collapsable: true,
         children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
