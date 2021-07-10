@@ -25,8 +25,7 @@ module.exports = {
       {
         title: "🥪 JavaScript",
         collapsable: true,
-        children:[ "/JavaScript/DOM/DOM.md",]
-        
+        children: ["/JavaScript/DOM/DOM.md"],
       },
       {
         title: "🧩 DataStructure",
@@ -47,10 +46,13 @@ module.exports = {
       {
         title: "🍃 Thymeleaf",
         collapsable: true,
-        children:[
-          "/Thymeleaf/Thymeleaf.md"
-        ]
-      }
+        children: ["/Thymeleaf/Thymeleaf.md"],
+      },
+      {
+        title: "🦋 Debug",
+        collapsable: true,
+        children: ["/Debug/Debug.md"],
+      },
     ],
     nav: [
       {
