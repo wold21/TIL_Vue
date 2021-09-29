@@ -1,7 +1,3 @@
----
-home: false
----
-
 <template>
   <div>
     <div class="titleContainer">
