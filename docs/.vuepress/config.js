@@ -28,6 +28,11 @@ module.exports = {
         children: ["/JavaScript/DOM/DOM.md"],
       },
       {
+        title: "🌊 Jquery",
+        collapsable: true,
+        children: ["/Jquery/Jquery.md"],
+      },
+      {
         title: "🧩 DataStructure",
         collapsable: true,
         children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
