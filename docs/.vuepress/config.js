@@ -33,7 +33,7 @@ module.exports = {
       {
         title: "🌊 jQuery",
         collapsable: true,
-        children: ["/jQuery/jQuery.md"],
+        children: ["/jQuery/jQuery/jQuery.md"],
       },
       {
         title: "🧩 DataStructure",
