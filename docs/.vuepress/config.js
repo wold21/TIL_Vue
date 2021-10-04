@@ -25,12 +25,15 @@ module.exports = {
       {
         title: "🥪 JavaScript",
         collapsable: true,
-        children: ["/JavaScript/DOM/DOM.md"],
+        children: [
+          "/JavaScript/DOM/DOM.md",
+          "/JavaScript/Syntax/Object.md",
+        ],
       },
       {
-        title: "🌊 Jquery",
+        title: "🌊 jQuery",
         collapsable: true,
-        children: ["/Jquery/Jquery.md"],
+        children: ["/jQuery/jQuery.md"],
       },
       {
         title: "🧩 DataStructure",
