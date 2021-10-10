@@ -23,19 +23,6 @@ module.exports = {
         ],
       },
       {
-        title: "🥪 JavaScript",
-        collapsable: true,
-        children: [
-          "/JavaScript/DOM/DOM.md",
-          "/JavaScript/Syntax/Object.md",
-        ],
-      },
-      {
-        title: "🌊 jQuery",
-        collapsable: true,
-        children: ["/jQuery/jQuery/jQuery.md"],
-      },
-      {
         title: "🧩 DataStructure",
         collapsable: true,
         children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
@@ -52,9 +39,32 @@ module.exports = {
         ],
       },
       {
+        title: "🥪 JavaScript",
+        collapsable: true,
+        children: [
+          "/JavaScript/DOM/DOM.md",
+          "/JavaScript/Syntax/Object.md",
+        ],
+      },
+      {
+        title: "🌊 jQuery",
+        collapsable: true,
+        children: ["/jQuery/jQuery/jQuery.md"],
+      },
+      {
         title: "🍃 Thymeleaf",
         collapsable: true,
         children: ["/Thymeleaf/Thymeleaf.md"],
+      },
+      {
+        title: "🥴 Mustache",
+        collapsable: true,
+        children: ["/Mustache/Mustache.md"],
+      },
+      {
+        title: "😖 HandleBars.js",
+        collapsable: true,
+        children: ["/Handlebars/Handlebars.js.md"],
       },
       {
         title: "🦋 Debug",
