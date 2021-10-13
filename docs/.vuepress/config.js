@@ -52,6 +52,11 @@ module.exports = {
         children: ["/jQuery/jQuery/jQuery.md"],
       },
       {
+        title: "⛓ Ajax",
+        collapsable: true,
+        children: ["/Ajax/AjaxIntro/AjaxIntro.md"],
+      },
+      {
         title: "🍃 Thymeleaf",
         collapsable: true,
         children: ["/Thymeleaf/Thymeleaf.md"],
