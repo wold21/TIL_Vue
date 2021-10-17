@@ -55,8 +55,8 @@ module.exports = {
         title: "⛓ Ajax",
         collapsable: true,
         children: [
-          "/Ajax/AjaxIntro/AjaxIntro.md",
-          "/Ajax/Ajax!/Ajax!.md",
+          "/Ajax/Ajax_Intro/AjaxIntro.md",
+          "/Ajax/Ajax_First/Ajax!.md",
         ],
       },
       {
