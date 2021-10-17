@@ -55,6 +55,7 @@ module.exports = {
         title: "⛓ Ajax",
         collapsable: true,
         children: ["/Ajax/AjaxIntro/AjaxIntro.md"],
+        children: ["/Ajax/Ajax!/Ajax!.md"],
       },
       {
         title: "🍃 Thymeleaf",
