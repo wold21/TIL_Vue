@@ -73,4 +73,8 @@ CRU**D** - 데이터를 삭제 할 때 사용한다. 쿼리문에서 Delete라�
 이번 글에서는 Ajax를 사용하기 위해서 최소한의 정보를 알아볼 수 있게 글을 작성했고 회사에 다니며 매우 빈번하게 사용하는 Ajax를 더 잘 사용하기 위해서 필요한 정보라고 생각했다. 다음 글은 실제로 데이터를 주고 받는 코드에 대해서 써보려고 한다. 
 
 
+#### 참고 사이트
 
+[Link-1](http://tcpschool.com/ajax/ajax_intro_basic)
+
+[Link-2](https://devuna.tistory.com/77)
