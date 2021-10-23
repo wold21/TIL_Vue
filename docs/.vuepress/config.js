@@ -57,6 +57,7 @@ module.exports = {
         children: [
           "/Ajax/Ajax_Intro/AjaxIntro.md",
           "/Ajax/Ajax_First/Ajax_First.md",
+          "/Ajax/Ajax_Second/Ajax_Second.md",
         ],
       },
       {
