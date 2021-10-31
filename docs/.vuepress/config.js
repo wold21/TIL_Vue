@@ -44,6 +44,7 @@ module.exports = {
         children: [
           "/JavaScript/DOM/DOM.md",
           "/JavaScript/Syntax/Object.md",
+          "/JavaScript/All Loops/Loop.md",
         ],
       },
       {
