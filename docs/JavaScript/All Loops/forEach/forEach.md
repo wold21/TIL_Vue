@@ -4,9 +4,11 @@
 
 >그러나 이것도 ES6부터는 Map, Set을 지원함.
 
-내가 보고 느꼈던 첫 인상은 바닐라 js를 쓰거나 플러그인 된 제이쿼리를 쓰거나 그정도의 차이라고 생각했다. 정말이었다, Stackoverflow에서 찾아보니 성능상으로는 정말 차이가 없다고 말한다. 가독성을 위해 혹은 통일성을 위해 제이쿼리에서 추가한거라고 생각이 들었다. arr와 json 두 가지 방식으로 살펴보겠다.
+내가 보고 느꼈던 첫 인상은 바닐라 js를 쓰거나 플러그인 된 제이쿼리를 쓰거나 그정도의 차이라고 생각했다. 정말이었다, Stackoverflow에서 찾아보니 성능상으로는 정말 차이가 없다고 말한다. 가독성을 위해 혹은 통일성을 위해 제이쿼리에서 추가한거라고 생각이 들었다. arr와 json 두 가지 방식으로 살펴보겠다.  
 
-### forEach
+
+
+## forEach
 
 ```javascript
 var arr = ['초', '밥', '먹', '고', '싶', '다', '.']; 
@@ -29,10 +31,10 @@ arr.forEach(function(item, index, arr){
   - Index
 - arr
   - 잘 안쓰는 인자로 arr값을 나타낸다.
+  
+  
 
-
-
-### $.each
+## $.each
 
 ```javascript
 var arr= [ 
@@ -60,7 +62,7 @@ $.each(arr, function(index, item){
 
 
 
-### $(selector).each
+## $(selector).each
 
 ```javascript
 $(".list li").each(function(index, item){

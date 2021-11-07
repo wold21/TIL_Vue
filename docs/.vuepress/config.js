@@ -49,6 +49,7 @@ module.exports = {
             children: [
               "/JavaScript/All Loops/Loop.md",
               "/JavaScript/All Loops/forEach/forEach.md",
+              "/JavaScript/All Loops/everySome/everySome.md",
             ],
           },
         ],
