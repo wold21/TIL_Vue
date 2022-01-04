@@ -50,6 +50,7 @@ module.exports = {
               "/JavaScript/All Loops/Loop.md",
               "/JavaScript/All Loops/forEach/forEach.md",
               "/JavaScript/All Loops/everySome/everySome.md",
+              "/JavaScript/All Loops/map/map.md",
             ],
           },
         ],
