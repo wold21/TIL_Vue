@@ -73,4 +73,6 @@ html 처럼 헤더나 푸터 같은 구분 태그는 없지만 하나의 큰 부
 
 꽤 많은 태그들이 있어서 따로 더 찾아보면 좋을 것 같다. 아래에 참고 사이트에서 굉장히 fxml을 비롯해 JavaFX 전반적인 기능에 대해서 잘 정리해 놓았다. 참고하면 좋을 것이다.
 
-[참고 사이트]([[Java] JavaFX - Intro :: Palpit's Techlog](https://palpit.tistory.com/entry/Java-JavaFX-Intro?category=843239))
+[참고 사이트1]([[Java] JavaFX - Intro :: Palpit's Techlog](https://palpit.tistory.com/entry/Java-JavaFX-Intro?category=843239))
+
+[참고 사이트2](https://schrodingermemory.tistory.com/1)
