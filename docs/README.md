@@ -14,6 +14,10 @@ home: false
                 <p><a href="https://companion-tazo.tistory.com/" target="_blank">Blog</a></p>
                 <p><a href="https://www.youtube.com/channel/UC_Cpl1AhDkTdVe2jia5pNwQ" target="_blank">Youtube</a></p>
             </div>
+            <div>
+              <p class="caption">스스로 공부하고 도움을 주기위해 시작했습니다,</p>
+              <p class="caption">그래서 대체로 글이 긴 편입니다.</p>
+            </div>
       </div>
     </div>
   </div>
@@ -46,6 +50,10 @@ h1 {
 ul {
   list-style: none;
   line-height: 1.5rem;
+}
+.caption {
+  font-size: 13px;
+  font-weight: 600;
 }
 @media (max-width: 550px) {
   h1 {

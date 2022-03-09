@@ -39,6 +39,13 @@ module.exports = {
         ],
       },
       {
+        title: "☕ Java",
+        collapsable: true,
+        children: [
+          "/Java/JavaFX/FXML/FXML.md",
+        ],
+      },
+      {
         title: "🥪 JavaScript",
         collapsable: true,
         children: [
