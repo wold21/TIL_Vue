@@ -46,6 +46,18 @@ module.exports = {
         ],
       },
       {
+        title: "🥅 JPA",
+        collapsable: true,
+        children: [
+          "/JPA/Intro/Intro.md",
+          "JPA/EMF-JPQL/EMF-JPQL.md",
+          "JPA/영속성관리/영속성관리.md",
+          "JPA/엔티티매핑/엔티티매핑.md",
+          "JPA/연관관계매핑기초/연관관계매핑기초.md",
+          "JPA/다양한연관관계매핑/다양한연관관계매핑.md",
+        ],
+      },
+      {
         title: "🥪 JavaScript",
         collapsable: true,
         children: [
@@ -95,6 +107,20 @@ module.exports = {
         title: "🦋 Debug",
         collapsable: true,
         children: ["/Debug/Debug.md"],
+      },
+      {
+        title: "--------------------",
+        children: [],
+      },
+      {
+        title: "💫 React",
+        collapsable: true,
+        children: [],
+      },
+      {
+        title: "⁉ TypeScript",
+        collapsable: true,
+        children: [],
       },
     ],
     nav: [
