@@ -8,9 +8,10 @@ jobs:
       uses: actions/checkout@main
 
     - name: Vuepress deploy
-      uses: jenkey2011/vuepress-deploy@1.6.1
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
+        TARGET_REPO: wold21/TIL_Vue
         BUILD_SCRIPT: yarn && yarn build
-        TARGET_BRANCH: gh-pages
+        TARGET_BRANCH: main
         BUILD_DIR: build/
