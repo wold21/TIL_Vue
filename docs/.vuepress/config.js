@@ -1,6 +1,15 @@
 // config.js
 module.exports = {
     title: "코드를 부르자",
+    head:[
+        [
+            "meta",
+            {
+                name: "google-site-verification",
+                content: "98ofrs5bHu1o8TWDoXUdouRKvfAjQbhqsuX8TxMYb5I"
+            }
+        ]
+    ],
     description: "Hyuk's tech Blog",
     base: "/TIL_Vue/",
     dest: "build",
