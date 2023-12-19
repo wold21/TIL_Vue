@@ -7,11 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
 
-    - name: Vuepress deploy
+    - name: vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
         TARGET_REPO: wold21/TIL_Vue
-        BUILD_SCRIPT: yarn && yarn build
         TARGET_BRANCH: main
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: build/
