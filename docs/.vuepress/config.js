@@ -1,7 +1,8 @@
 // config.js
 module.exports = {
     plugins: [[
-        "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"}
+        "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
+        "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
     ]],
     title: "코드를 부르자",
     head:[
@@ -10,8 +11,14 @@ module.exports = {
             {
                 name: "google-site-verification",
                 content: "98ofrs5bHu1o8TWDoXUdouRKvfAjQbhqsuX8TxMYb5I"
-            }
-        ]
+            },
+            "script",
+            {
+                async: true,
+                src: "https://www.googletagmanager.com/gtag/js?id=G-Z0007GLFLP",
+            },
+        ],
+        ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-Z0007GLFLP');"]],
     ],
     description: "Hyuk's tech Blog",
     base: "/TIL_Vue/",
