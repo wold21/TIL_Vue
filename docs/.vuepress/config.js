@@ -1,5 +1,8 @@
 // config.js
 module.exports = {
+    plugin: [[
+        "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"}
+    ]],
     title: "코드를 부르자",
     head:[
         [
