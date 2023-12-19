@@ -10,7 +10,7 @@ jobs:
     - name: vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TIL_TOKEN }}
         TARGET_REPO: wold21/TIL_Vue
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
