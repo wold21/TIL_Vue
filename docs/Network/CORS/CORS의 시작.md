@@ -1,4 +1,4 @@
-# 1.CORS
+# 1.CORS의 시작
 > 웹 개발자라면 누구도 피해갈 수 없는 부분.
 
 ## **CORS란?**
@@ -20,7 +20,7 @@ cors를 이해하기 위해서는 교차 출처라는 단어를 이해해야한�
 
 ### 웹에서의 출처
 
-![Origin](../../../../TIL_Vue/docs/.vuepress/Assets/images/cors/cross_origin_resource.png)
+<a href="https://ibb.co/TLFvngG"><img src="https://i.ibb.co/Qd1bqKV/2024-01-30-14-23-30.png" alt="2024-01-30-14-23-30" border="0"></a>
 
 - Protocol : http, https
 - Host : 사이트 도메인(IP...)
@@ -61,7 +61,13 @@ XMLHttpRequest와 fetch API등이 해당 되는 것이다. 자바스크립트의
 
 SOP, 동일 출처 정책이 없었다면 이러한 일들이 펼쳐지기가 쉬울 것이다. 
 
+<br>
 
+## Next...
+cors가 어떻게 동작하는지 그러면 해결하기 위해 서버가 작업해야하는지 클라이언트에서 작업해야하는지 이 모든것을 수월하게 해겨한 프록시 서버란 무엇인지에 대한 내용을 이어서 작성합니다.   
+
+
+<br><br>
 
 ---
 

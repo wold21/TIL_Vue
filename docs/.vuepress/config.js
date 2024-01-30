@@ -30,7 +30,16 @@ module.exports = {
             {
                 title: "🌏 Network",
                 collapsable: true,
-                children: ["/Network/HTTP/http.md", "/Network/TCPandUDP/TCP_UDP.md"],
+                children: [
+                    "/Network/HTTP/http.md",
+                    "/Network/TCPandUDP/TCP_UDP.md",
+                    {
+                        title: "Cors",
+                        children: [
+                            "/Network/CORS/CORS의 시작.md"
+                        ],
+                    },
+                   ],
             },
             {
                 title: "🕸 Web",
