@@ -2,7 +2,7 @@
 home: false
 ---
 <template>
-  <link rel="stylesheet" href="/main.css">
+  <!-- <link rel="stylesheet" href="/main.css"> -->
   <div>
     <div class="titleContainer">
       <h1>난 오늘도

@@ -1,5 +1,8 @@
 // config.js
 module.exports = {
+  head: [
+    ['link', { rel: 'stylesheet', href: '/main.css' }],
+  ],
     plugins: [[
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
