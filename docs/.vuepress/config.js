@@ -28,14 +28,21 @@ module.exports = {
         children: ["/DataStructure/TimeComplexity/TimeComplexity.md"],
       },
       {
+        title: "🦣Gradle",
+        collapsable: true,
+        children: [
+          "/Gradle/GradleProjectStructure.md",
+        ],
+      },
+      {
         title: "🌱 Spring",
         collapsable: true,
         children: [
+          "/Spring/Intro/SpringIntro.md",
           "/Spring/IoC_DI/DI.md",
           "/Spring/IoC_DI/IoC.md",
           "/Spring/Container/SpringContainer.md",
           "/Spring/SpringBoot/SpringBootStart.md",
-          "/Spring/Gradle/GradleProjectStructure.md",
         ],
       },
       {
@@ -109,19 +116,10 @@ module.exports = {
         children: ["/Debug/Debug.md"],
       },
       {
-        title: "--------------------",
-        children: [],
-      },
-      {
-        title: "💫 React",
+        title: "🎡 Tech",
         collapsable: true,
-        children: [],
-      },
-      {
-        title: "⁉ TypeScript",
-        collapsable: true,
-        children: [],
-      },
+        children: ["/Tech/MSA/msa.md"],
+      }
     ],
     nav: [
       {
