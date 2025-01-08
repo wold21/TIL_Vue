@@ -23,3 +23,7 @@
 
 ## OSI 7 layer
 <img src="/images/network/osi_layer.png" alt="OSI 7 Layer" height="300">
+
+![OSI 7 Layer](./images/osi_layer.png)
+
+이 7개의 레이어들은 각 레이어에 맞게 프로토콜이 세분화돼서 구현이 되어있으며 각 레이어의 프로토콜은 하위 레이어의 프로토콜이 제공하는 기능을 사용하여 동작한다.
