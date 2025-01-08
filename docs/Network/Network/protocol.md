@@ -22,4 +22,4 @@
 이것은 곧 계층구조로 표현할 수 있게 되며 OSI model(7 layer)과 TCP/IP stack(4 layer)가 탄생하게 된다. 
 
 ## OSI 7 layer
-![OSI 7 Layer](\images\network\osi_layer.png)
+<img src="/images/network/osi_layer.png" alt="OSI 7 Layer" height="300">
