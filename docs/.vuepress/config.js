@@ -23,7 +23,8 @@ module.exports = {
             title: "Network",
             children: [
              "/Network/Network/internet.md",
-             "/Network/Network/protocol.md"
+             "/Network/Network/protocol.md",
+             "/Network/Network/www와web.md"
             ],
           },
           "/Network/HTTP/http.md", 
