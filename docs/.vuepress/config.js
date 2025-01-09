@@ -6,7 +6,17 @@ module.exports = {
     plugins: [[
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
-    ]],
+    ],
+    [
+      '@vuepress/plugin-last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment');
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+        },
+      },
+    ],
+  ],
   title: "코드를 부르자",
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
@@ -24,7 +34,8 @@ module.exports = {
             children: [
              "/Network/Network/internet.md",
              "/Network/Network/protocol.md",
-             "/Network/Network/www와web.md"
+             "/Network/Network/www와web.md",
+             "/Network/Network/socket,port,TCPconnection.md"
             ],
           },
           "/Network/HTTP/http.md", 

@@ -15,5 +15,9 @@
     "picgo": "^1.4.21",
     "vuepress": "^1.8.2",
     "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.9.10",
+    "moment": "^2.30.1"
   }
 }
