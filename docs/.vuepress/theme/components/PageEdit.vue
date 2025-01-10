@@ -30,8 +30,19 @@ export default {
   name: 'PageEdit',
 
   computed: {
-    lastUpdated () {
-      return this.$page.lastUpdated
+    lastUpdated() {
+      const pageLastUpdated = this.$page.lastUpdated;
+    
+      if (pageLastUpdated) {
+        return pageLastUpdated;  
+      }
+      
+      const metaTag = document.querySelector('meta[name="last-updated"]');
+      if (metaTag) {
+        return metaTag.getAttribute('content');  
+      }
+
+      return null;
     },
 
     lastUpdatedText () {
