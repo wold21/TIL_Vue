@@ -31,6 +31,8 @@ export default {
 
   computed: {
     lastUpdated () {
+      console.log("in lastUpdated");
+      console.log(this.$page.lastUpdated);
       return this.$page.lastUpdated
     },
 

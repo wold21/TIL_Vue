@@ -13,9 +13,15 @@ module.exports = {
       {
         transformer: (timestamp, lang) => {
           const moment = require('moment');
+          moment.locale(lang);
           return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
         },
       },
+      {
+        dateOptions: {
+          hour12: true
+        }
+      }
     ],
     ["@vuepress/back-to-top"],
     ["vuepress-plugin-code-copy"]
