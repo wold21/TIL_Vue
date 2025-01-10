@@ -2,6 +2,7 @@
 module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],
+    ['meta', { name: 'last-updated', content: (new Date()).toISOString() }],
   ],
   plugins: [
     [
