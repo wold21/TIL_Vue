@@ -3,7 +3,8 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],
   ],
-    plugins: [[
+  plugins: [
+    [
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
     ],
@@ -11,6 +12,7 @@ module.exports = {
       '@vuepress/plugin-last-updated',
       {
         transformer: (timestamp, lang) => {
+          console.log("transformer", timestamp);
           const moment = require('moment');
           return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
         },
