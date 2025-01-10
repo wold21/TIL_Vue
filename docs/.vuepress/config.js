@@ -9,15 +9,16 @@ module.exports = {
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
     ],
     [
-      '@vuepress/plugin-last-updated',
+      "@vuepress/last-updated",
       {
         transformer: (timestamp, lang) => {
-          console.log("transformer", timestamp);
           const moment = require('moment');
           return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
         },
       },
     ],
+    ["@vuepress/back-to-top"],
+    ["vuepress-plugin-code-copy"]
   ],
   title: "코드를 부르자",
   description: "Hyuk's tech Blog",

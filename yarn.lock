@@ -1333,6 +1333,14 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.10.tgz#7928d4da309119a20021eea90d94d4982026c791"
+  integrity sha512-iInIp66wu717CAnT2pyd9Bs/vAgrUBOBIQ7WMnfJo07cW/ZIothpyrSHnpCRSsfJ/jLivMPqW0pviqppt64BzQ==
+  dependencies:
+    "@vuepress/types" "1.9.10"
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-google-analytics@^1.9.10":
   version "1.9.10"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.10.tgz#3cd93245007f4b384f4eb169e72e538dc87f8b0e"
@@ -9050,6 +9058,11 @@ vuepress-html-webpack-plugin@^3.2.0:
     tapable "^1.0.0"
     toposort "^1.0.0"
     util.promisify "1.0.0"
+
+vuepress-plugin-code-copy@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.0.6.tgz#6431dab764b48b5b203e4936d98b1943651ce4ad"
+  integrity sha512-FiqwMtlb4rEsOI56O6sSkekcd3SlESxbkR2IaTIQxsMOMoalKfW5R9WlR1Pjm10v6jmU661Ex8MR11k9IzrNUg==
 
 vuepress-plugin-container@^2.0.2:
   version "2.1.5"

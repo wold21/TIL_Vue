@@ -11,13 +11,15 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-google-analytics": "^1.9.10",
+    "@vuepress/plugin-last-updated": "^1.9.10",
     "picgo": "^1.4.21",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "@vuepress/plugin-last-updated": "^1.9.10",
     "moment": "^2.30.1"
   }
 }
