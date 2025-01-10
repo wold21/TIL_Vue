@@ -1,9 +1,5 @@
 // config.js
 module.exports = {
-  head: [
-    ['link', { rel: 'stylesheet', href: '/main.css' }],
-    ['meta', { name: 'last-updated', content: (new Date()).toISOString() }],
-  ],
   plugins: [
     [
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
@@ -32,6 +28,9 @@ module.exports = {
   base: "/TIL_Vue/",
   dest: "build",
   themeConfig: {
+    themeConfig: {
+      lastUpdated: 'Last Updated', 
+    },
     logo:
       "https://cdn.shopify.com/s/files/1/0276/4803/2851/files/10375_-_Inferno_22_09_20_122834a1-bdd3-4886-b963-b53234fc46e5_480x480.jpg?v=1604507899",
     sidebar: [
@@ -178,4 +177,8 @@ module.exports = {
       },
     ],
   },
+  head: [
+    ['link', { rel: 'stylesheet', href: '/main.css' }],
+    // ['meta', { name: 'last-updated', content: (new Date()).toISOString() }],
+  ],
 };
