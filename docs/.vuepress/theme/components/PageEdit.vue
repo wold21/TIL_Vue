@@ -31,18 +31,7 @@ export default {
 
   computed: {
     lastUpdated() {
-      const pageLastUpdated = this.$page.lastUpdated;
-    
-      if (pageLastUpdated) {
-        return pageLastUpdated;  
-      }
-      
-      const metaTag = document.querySelector('meta[name="last-updated"]');
-      if (metaTag) {
-        return metaTag.getAttribute('content');  
-      }
-
-      return null;
+      return this.$page.lastUpdated;
     },
 
     lastUpdatedText () {

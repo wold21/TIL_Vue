@@ -3,13 +3,13 @@ const leftSideBar = require("./leftSideBar");
 // config.js
 module.exports = {
   plugins: [
+    ["@vuepress/last-updated"],
+    ["@vuepress/back-to-top"],
+    ["vuepress-plugin-code-copy"],
     [
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
-    ],
-    ["@vuepress/last-updated"],
-    ["@vuepress/back-to-top"],
-    ["vuepress-plugin-code-copy"]
+    ]
   ],
   title: "코드를 부르자",
   description: "Hyuk's tech Blog",
