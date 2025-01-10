@@ -12,5 +12,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
         TARGET_REPO: wold21/TIL_Vue
-        BUILD_SCRIPT: rm -rf .node_modules && yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: build/
