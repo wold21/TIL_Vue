@@ -10,7 +10,8 @@ module.exports = [
            "/Network/Network/protocol.md",
            "/Network/Network/www와web.md",
            "/Network/Network/socket,port,TCPconnection.md",
-           "/Network/Network/socket,port,TCPconnection_1.md"
+           "/Network/Network/socket,port,TCPconnection_1.md",
+           "/Network/Network/segment,datagram,packet,frame.md"
           ],
         },
         "/Network/HTTP/http.md", 
