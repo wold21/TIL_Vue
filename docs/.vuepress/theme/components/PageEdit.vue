@@ -31,11 +31,29 @@ export default {
 
   computed: {
     lastUpdated() {
-      console.log('Page object:', this.$page);
-      console.log('Last updated:', this.$page.lastUpdated);
-      if (this.$page.lastUpdated) {
-        return new Date(this.$page.lastUpdated).toLocaleString()
+      const page = this.$page
+      console.log('Full page object:', JSON.stringify(page, null, 2))
+      
+      if (page && page.lastUpdated) {
+        const timestamp = new Date(page.lastUpdated)
+        return timestamp.toLocaleString()
       }
+      
+      // Git timestamp fallback
+      if (page && page.relativePath) {
+        try {
+          const execSync = require('child_process').execSync
+          const timestamp = execSync(
+            `git log -1 --format=%ct "${page.relativePath}"`,
+            { encoding: 'utf-8' }
+          ).trim()
+          
+          return new Date(timestamp * 1000).toLocaleString()
+        } catch (e) {
+          console.error('Error getting git timestamp:', e)
+        }
+      }
+      
       return null
     },
 

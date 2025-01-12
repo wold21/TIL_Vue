@@ -4,7 +4,6 @@ const leftSideBar = require("./leftSideBar");
 module.exports = {
   plugins: [
     "@vuepress/last-updated",
-    ["@vuepress/back-to-top"],
     ["vuepress-plugin-code-copy"],
     [
         "sitemap", {hostname : "https://wold21.github.io/TIL_Vue/"},
@@ -30,7 +29,8 @@ module.exports = {
         link: "https://companion-tazo.tistory.com/",
       },
     ],
-    lastUpdated: true,  
+    lastUpdated: 'Last Updated',
+    repo: 'wold21/TIL_Vue',
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],
