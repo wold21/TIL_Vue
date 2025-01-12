@@ -5,7 +5,10 @@ module.exports = {
   plugins: [
     ["@vuepress/last-updated", {
       transformer: (timestamp) => {
-        return new Date(timestamp).toLocaleString()
+        const moment = require('moment')
+        moment.locale('ko')
+        console.log('Timestamp:', timestamp) // Debug timestamp
+        return timestamp ? moment(timestamp).format('YYYY-MM-DD HH:mm:ss') : ''
       }
     }],
     ["@vuepress/back-to-top"],
@@ -34,7 +37,9 @@ module.exports = {
         link: "https://companion-tazo.tistory.com/",
       },
     ],
-    lastUpdated: true,
+    lastUpdated: 'Last Updated',
+    repo: 'wold21/TIL_Vue',
+    docsDir: 'docs',
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],

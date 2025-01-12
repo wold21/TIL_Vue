@@ -4,7 +4,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: Checkout with full history
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
@@ -12,8 +12,9 @@ jobs:
       
     - name: Git Setup
       run: |
-        git config --local user.email "wold2180@gmail.com"
-        git config --local user.name "wold21"
+        git config --global user.email "wold2180@gmail.com"
+        git config --global user.name "wold21"
+        git log -1 --format="%ct" # Debug: Print last commit timestamp
 
     - name: Set Timezone
       run: sudo timedatectl set-timezone Asia/Seoul 
