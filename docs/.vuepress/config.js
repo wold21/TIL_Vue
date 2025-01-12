@@ -7,10 +7,11 @@ module.exports = {
       transformer: (timestamp) => {
         const moment = require('moment')
         moment.locale('ko')
-        // Add debug info
-        console.log('Raw timestamp:', timestamp)
-        console.log('Moment date:', moment(timestamp).format('YYYY-MM-DD HH:mm:ss'))
-        return timestamp ? moment(timestamp).format('YYYY-MM-DD HH:mm:ss') : ''
+        // Git timestamp is in seconds, need to convert to milliseconds
+        const date = new Date(timestamp * 1000)
+        console.log('Git timestamp:', timestamp)
+        console.log('Converted date:', date)
+        return moment(date).format('YYYY-MM-DD HH:mm:ss')
       },
       dateOptions: {
         hour12: false
