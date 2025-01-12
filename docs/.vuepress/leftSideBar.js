@@ -9,10 +9,10 @@ module.exports = [
            "/Network/Network/internet.md",
            "/Network/Network/protocol.md",
            "/Network/Network/www와web.md",
-           "/Network/Network/socket,port,TCPconnection.md",
-           "/Network/Network/socket,port,TCPconnection_1.md",
-           "/Network/Network/segment,datagram,packet,frame.md",
-           "/Network/Network/byte-stream,message-oriented.md"
+           "/Network/Network/socket_port_TCPconnection.md",
+           "/Network/Network/socket_port_TCPconnection_1.md",
+           "/Network/Network/segment_datagram_packet_frame.md",
+           "/Network/Network/byte-stream_message-oriented.md"
           ],
         },
         "/Network/HTTP/http.md", 
@@ -20,7 +20,7 @@ module.exports = [
         {
           title: "CORS",
           children: [
-           "/Network/CORS/CORS의 시작.md",
+           "/Network/CORS/CORS의시작.md",
           ],
         },
         ],

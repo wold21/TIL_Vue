@@ -31,15 +31,7 @@ export default {
 
   computed: {
     lastUpdated() {
-      const page = this.$page
-      console.log('Page object:', page)
-      
-      if (page.lastUpdated) {
-        const moment = require('moment')
-        moment.locale('ko')
-        return moment(page.lastUpdated).format('YYYY-MM-DD HH:mm:ss')
-      }
-      return null
+      return this.$page.lastUpdated
     },
 
     lastUpdatedText () {
