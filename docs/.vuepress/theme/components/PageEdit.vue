@@ -32,28 +32,13 @@ export default {
   computed: {
     lastUpdated() {
       const page = this.$page
-      console.log('Full page object:', JSON.stringify(page, null, 2))
+      console.log('Page object:', page)
       
-      if (page && page.lastUpdated) {
-        const timestamp = new Date(page.lastUpdated)
-        return timestamp.toLocaleString()
+      if (page.lastUpdated) {
+        const moment = require('moment')
+        moment.locale('ko')
+        return moment(page.lastUpdated).format('YYYY-MM-DD HH:mm:ss')
       }
-      
-      // Git timestamp fallback
-      if (page && page.relativePath) {
-        try {
-          const execSync = require('child_process').execSync
-          const timestamp = execSync(
-            `git log -1 --format=%ct "${page.relativePath}"`,
-            { encoding: 'utf-8' }
-          ).trim()
-          
-          return new Date(timestamp * 1000).toLocaleString()
-        } catch (e) {
-          console.error('Error getting git timestamp:', e)
-        }
-      }
-      
       return null
     },
 
