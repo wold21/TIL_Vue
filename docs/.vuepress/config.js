@@ -4,17 +4,14 @@ const leftSideBar = require("./leftSideBar");
 module.exports = {
   plugins: [
     ["@vuepress/last-updated", {
-      transformer: (timestamp) => {
+      transformer: (timestamp, lang, timezone) => {
+        console.log('Debug - timestamp:', timestamp);
+        console.log('Debug - lang:', lang);
+        console.log('Debug - timezone:', timezone);
+        
         const moment = require('moment')
         moment.locale('ko')
-        // Git timestamp is in seconds, need to convert to milliseconds
-        const date = new Date(timestamp * 1000)
-        console.log('Git timestamp:', timestamp)
-        console.log('Converted date:', date)
-        return moment(date).format('YYYY-MM-DD HH:mm:ss')
-      },
-      dateOptions: {
-        hour12: false
+        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
       }
     }],
     ["@vuepress/back-to-top"],

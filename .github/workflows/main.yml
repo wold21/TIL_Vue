@@ -9,6 +9,15 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Git Setup and Debug
+      run: |
+        git config --global user.email "wold2180@gmail.com"
+        git config --global user.name "wold21"
+        echo "Git Status:"
+        git status
+        echo "Git Log:"
+        git log -1 --format="%ct" -- docs/Ajax/Ajax_Intro/AjaxIntro.md
+
     - name: Clean Yarn Cache
       run: yarn cache clean
 
