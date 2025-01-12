@@ -30,6 +30,7 @@ module.exports = {
         link: "https://companion-tazo.tistory.com/",
       },
     ],
+    lastUpdated: 'Last Updated',
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],

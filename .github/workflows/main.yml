@@ -15,6 +15,11 @@ jobs:
     - name: Clean Yarn Cache
       run: yarn cache clean
 
+    - name: Delete node_modules and yarn.lock
+      run: |
+        rm -rf node_modules
+        rm -f yarn.lock
+
     - name: Install Dependencies
       run: yarn install
 
