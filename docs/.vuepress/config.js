@@ -4,9 +4,13 @@ const leftSideBar = require("./leftSideBar");
 module.exports = {
   plugins: [
     ["@vuepress/last-updated", {
-      transformer: (timestamp, lang) => {
+      transformer: (timestamp) => {
         const moment = require('moment')
-        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        moment.locale('ko')
+        return moment(timestamp).fromNow()
+      },
+      dateOptions: {
+        hour12: false
       }
     }],
     ["@vuepress/back-to-top"],
