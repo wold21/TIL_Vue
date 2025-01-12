@@ -25,5 +25,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
         TARGET_REPO: wold21/TIL_Vue
-        BUILD_SCRIPT: yarn build
+        BUILD_SCRIPT: DEBUG=vuepress* yarn build
         BUILD_DIR: build/
