@@ -23,16 +23,6 @@ jobs:
     - name: Install Dependencies
       run: yarn install
 
-    - name: Verify Git Installation
-      run: git --version
-
-    - name: Verify Installation
-      run: |
-        echo "Verifying installation of @vuepress/plugin-last-updated"
-        yarn list --pattern @vuepress/plugin-last-updated
-        echo "Verifying installation of moment"
-        yarn list --pattern moment
-
     - name: vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
       env:

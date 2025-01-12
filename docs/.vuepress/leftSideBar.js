@@ -12,7 +12,7 @@ module.exports = [
            "/Network/Network/socket,port,TCPconnection.md",
            "/Network/Network/socket,port,TCPconnection_1.md",
            "/Network/Network/segment,datagram,packet,frame.md",
-           "/Network/Network/bite-stream,message-oriented.md"
+           "/Network/Network/byte-stream,message-oriented.md"
           ],
         },
         "/Network/HTTP/http.md", 
