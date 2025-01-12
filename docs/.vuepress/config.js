@@ -3,7 +3,12 @@ const leftSideBar = require("./leftSideBar");
 // config.js
 module.exports = {
   plugins: [
-    ["@vuepress/last-updated"],
+    ["@vuepress/last-updated", {
+      transformer: (timestamp, lang) => {
+        const moment = require('moment')
+        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+      }
+    }],
     ["@vuepress/back-to-top"],
     ["vuepress-plugin-code-copy"],
     [

@@ -31,6 +31,7 @@ export default {
 
   computed: {
     lastUpdated() {
+      console.log(this.$page); // Add this line to log the $page object
       return this.$page.lastUpdated;
     },
 
