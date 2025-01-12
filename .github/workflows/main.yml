@@ -6,7 +6,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+      with:
+        fetch-depth: 0
       
+    - name: Set Timezone
+      run: sudo timedatectl set-timezone Asia/Seoul 
+
     - name: Clean Yarn Cache
       run: yarn cache clean
 
