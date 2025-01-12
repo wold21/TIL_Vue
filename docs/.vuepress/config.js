@@ -3,17 +3,7 @@ const leftSideBar = require("./leftSideBar");
 // config.js
 module.exports = {
   plugins: [
-    ["@vuepress/last-updated", {
-      transformer: (timestamp, lang, timezone) => {
-        console.log('Debug - timestamp:', timestamp);
-        console.log('Debug - lang:', lang);
-        console.log('Debug - timezone:', timezone);
-        
-        const moment = require('moment')
-        moment.locale('ko')
-        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
-      }
-    }],
+    "@vuepress/last-updated",
     ["@vuepress/back-to-top"],
     ["vuepress-plugin-code-copy"],
     [
@@ -40,10 +30,7 @@ module.exports = {
         link: "https://companion-tazo.tistory.com/",
       },
     ],
-    lastUpdated: 'Last Updated',
-    repo: 'wold21/TIL_Vue',
-    docsDir: 'docs',
-    docsBranch: 'main'  // 추가: 현재 사용 중인 브랜치 명시
+    lastUpdated: true,  
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],
