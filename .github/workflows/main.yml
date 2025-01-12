@@ -10,11 +10,16 @@ jobs:
         fetch-depth: 0
         persist-credentials: false
       
-    - name: Git Setup
+    - name: Debug Git History
       run: |
         git config --global user.email "wold2180@gmail.com"
         git config --global user.name "wold21"
-        git log -1 --format="%ct" # Debug: Print last commit timestamp
+        echo "Last commit info:"
+        git log -1
+        echo "Git status:"
+        git status
+        echo "File timestamps:"
+        git ls-tree -r --full-name --full-tree HEAD
 
     - name: Set Timezone
       run: sudo timedatectl set-timezone Asia/Seoul 

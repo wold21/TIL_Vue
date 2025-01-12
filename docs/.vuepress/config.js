@@ -7,8 +7,13 @@ module.exports = {
       transformer: (timestamp) => {
         const moment = require('moment')
         moment.locale('ko')
-        console.log('Timestamp:', timestamp) // Debug timestamp
+        // Add debug info
+        console.log('Raw timestamp:', timestamp)
+        console.log('Moment date:', moment(timestamp).format('YYYY-MM-DD HH:mm:ss'))
         return timestamp ? moment(timestamp).format('YYYY-MM-DD HH:mm:ss') : ''
+      },
+      dateOptions: {
+        hour12: false
       }
     }],
     ["@vuepress/back-to-top"],
@@ -40,6 +45,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     repo: 'wold21/TIL_Vue',
     docsDir: 'docs',
+    docsBranch: 'main'  // 추가: 현재 사용 중인 브랜치 명시
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/main.css' }],
