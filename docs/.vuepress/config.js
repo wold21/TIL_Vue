@@ -10,6 +10,17 @@ module.exports = {
         "@vuepress/google-analytics", {ga: "G-Z0007GLFLP"}
     ]
   ],
+  markdown: {
+    anchor: { 
+      permalinkSymbol: '',  // 앵커 심볼 제거
+      level: [1, 2, 3, 4]   // 헤딩 레벨 지정
+    },
+    extendMarkdown: md => {
+      md.use(require('markdown-it-anchor'), {
+        slugify: s => encodeURIComponent(String(s).trim().toLowerCase().replace(/\s+/g, '-'))
+      })
+    }
+  },
   title: "코드를 부르자",
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
