@@ -8,11 +8,11 @@ module.exports = [
           children: [
            "/Network/Network/internet.md",
            "/Network/Network/protocol.md",
-           "/Network/Network/www와web.md",
+           "/Network/Network/www_and_web.md",
            "/Network/Network/socket_port_TCPconnection.md",
            "/Network/Network/socket_port_TCPconnection_1.md",
            "/Network/Network/segment_datagram_packet_frame.md",
-           "/Network/Network/byte-stream_message-oriented.md"
+           "/Network/Network/byte_stream_message_oriented.md"
           ],
         },
         "/Network/HTTP/http.md", 
@@ -20,7 +20,7 @@ module.exports = [
         {
           title: "CORS",
           children: [
-           "/Network/CORS/CORS의시작.md",
+           "/Network/CORS/cors_intro.md",
           ],
         },
         ],
@@ -31,7 +31,7 @@ module.exports = [
       children: [
         "/Web/WebContainer/WebContainer.md",
         "/Web/WebServer&WAS/webserver_was.md",
-        "/Web/WarJar/War와Jar.md",
+        "/Web/WarJar/war_jar.md",
       ],
     },
     {
@@ -69,11 +69,11 @@ module.exports = [
       collapsable: true,
       children: [
         "/JPA/Intro/Intro.md",
-        "JPA/EMF-JPQL/EMF-JPQL.md",
-        "JPA/영속성관리/영속성관리.md",
-        "JPA/엔티티매핑/엔티티매핑.md",
-        "JPA/연관관계매핑기초/연관관계매핑기초.md",
-        "JPA/다양한연관관계매핑/다양한연관관계매핑.md",
+        "JPA/emf_jpql/emf_jpql.md",
+        "JPA/persistence_manage/persistence_manage.md",
+        "JPA/entity_mapping/entity_mapping.md",
+        "JPA/relation_intro/relation_intro.md",
+        "JPA/relation_mapping/relation_mapping.md",
       ],
     },
     {
