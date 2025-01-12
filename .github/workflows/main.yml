@@ -23,6 +23,11 @@ jobs:
     - name: Install Dependencies
       run: yarn install
 
+    - name: Verify Installation
+      run: |
+        echo "Verifying installation of @vuepress/plugin-last-updated"
+        yarn list --pattern @vuepress/plugin-last-updated
+
     - name: vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
