@@ -6,6 +6,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+      
+    - name: Clean Yarn Cache
+      run: yarn cache clean
 
     - name: vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
