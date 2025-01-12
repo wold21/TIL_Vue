@@ -31,8 +31,11 @@ export default {
 
   computed: {
     lastUpdated() {
-      console.log(this.$page); // Add this line to log the $page object
-      return this.$page.lastUpdated;
+      if (this.$page.lastUpdated) {
+        const moment = require('moment')
+        return moment(this.$page.lastUpdated).format('YYYY-MM-DD HH:mm:ss')
+      }
+      return null
     },
 
     lastUpdatedText () {
