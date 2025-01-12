@@ -13,7 +13,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-google-analytics": "^1.9.10",
-    "@vuepress/plugin-last-updated": "^1.8.2",
+    "@vuepress/plugin-last-updated": "^1.9.10",
     "picgo": "^1.4.21",
     "vuepress": "^1.8.2",
     "vuepress-plugin-code-copy": "^1.0.6",
