@@ -64,3 +64,8 @@ UDP datagram인지 IP datagram인지 잘 구분해야한다.
 
 #### Segment
 일부 문서나 책에서는 TCP segment나 UDP datagram을 편의상 일괄적으로 segment라고 부르기도 한다.
+
+---
+> 강의 출처  
+> 해당 폴더에 있는 글은 모두 쉬운코딩님의 강좌를 보고 공부한 내용들입니다.  
+> [유튜브 - 쉬운코딩](https://www.youtube.com/@ezcd)
