@@ -15,7 +15,7 @@ module.exports = {
   base: "/TIL_Vue/",
   dest: "build",
   themeConfig: {
-    smoothScroll: true,
+    smoothScroll: false,
     logo:
       "https://cdn.shopify.com/s/files/1/0276/4803/2851/files/10375_-_Inferno_22_09_20_122834a1-bdd3-4886-b963-b53234fc46e5_480x480.jpg?v=1604507899",
     sidebar: leftSideBar,
@@ -36,4 +36,9 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: '/main.css' }],
     ['meta', { name: 'last-updated', content: (new Date()).toISOString() }],
   ],
+  markdown: {
+    anchor: {
+      permalink: false
+    }
+  }
 };
