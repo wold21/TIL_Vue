@@ -53,9 +53,3 @@ TCP가 알아서 MSS에 맞는 TCP segment로 나누어서 전송한다.
 
 ## 마무리
 <img src="./images/bite-stream,message-oriented.png" alt="bite-stream,message-oriented" height="300">
-
-
----
-> 강의 출처  
-> 해당 폴더에 있는 글은 모두 쉬운코딩님의 강좌를 보고 공부한 내용들입니다.  
-> [유튜브 - 쉬운코딩](https://www.youtube.com/@ezcd)

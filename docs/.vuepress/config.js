@@ -36,9 +36,4 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: '/main.css' }],
     ['meta', { name: 'last-updated', content: (new Date()).toISOString() }],
   ],
-  markdown: {
-    anchor: {
-      permalink: false
-    }
-  }
 };

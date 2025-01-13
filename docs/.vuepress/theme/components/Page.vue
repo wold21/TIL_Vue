@@ -23,6 +23,7 @@ export default {
 
 <style lang="stylus">
 @require '../styles/wrapper.styl'
+@require '../styles/custom_styles.styl'
 
 .page
   padding-bottom 2rem
