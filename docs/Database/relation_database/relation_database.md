@@ -1,4 +1,4 @@
-# Ralationnal Database
+# 관계형 데이터베이스
 
 ## 개요
 relational이 무엇인지 알기 위해서는 먼저 set이라는 자료구조를 알 필요가 있다.  
