@@ -27,8 +27,10 @@ module.exports = [
     },
     {
       title: "🛢️ Database",
+      collapsable: true,
       children: [
         "/Database/intro/intro.md",
+        "/Database/relation_database/relation_database.md",
       ]
     },
     {
