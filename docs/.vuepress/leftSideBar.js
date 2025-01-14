@@ -5,6 +5,7 @@ module.exports = [
       children: [
         {
           title: "Network",
+          collapsable: true,
           children: [
            "/Network/Network/internet.md",
            "/Network/Network/protocol.md",
@@ -29,8 +30,23 @@ module.exports = [
       title: "🛢️ Database",
       collapsable: true,
       children: [
-        "/Database/intro/intro.md",
-        "/Database/relation_database/relation_database.md",
+        {
+          title: "Database",
+          collapsable: true,
+          children: [
+            "/Database/Database/intro/intro.md",
+            "/Database/Database/relation_database/relation_database.md"
+          ],
+        },
+        {
+          title: "SQL",
+          collapsable: true,
+          children: [
+            "/Database/Sql/Sql/intro.md",
+            "/Database/Sql/Insert_Update/insert_update.md"
+          ],
+        },
+       
       ]
     },
     {
