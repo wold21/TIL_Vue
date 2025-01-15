@@ -1,4 +1,4 @@
-# Insert & Update
+# Insert & Update & Delete
 
 ## Insert
 ### INSERT Statement

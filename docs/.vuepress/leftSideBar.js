@@ -43,7 +43,8 @@ module.exports = [
           collapsable: true,
           children: [
             "/Database/Sql/Sql/intro.md",
-            "/Database/Sql/Insert_Update/insert_update.md"
+            "/Database/Sql/Insert_Update/insert_update_delete.md",
+            "/Database/Sql/Select/select.md"
           ],
         },
        
