@@ -45,7 +45,10 @@ module.exports = [
             "/Database/Sql/Sql/intro.md",
             "/Database/Sql/Insert_Update/insert_update_delete.md",
             "/Database/Sql/Select/select.md",
-            "/Database/Sql/Subquery/subquery.md"
+            "/Database/Sql/Subquery/subquery.md",
+            "/Database/Sql/NULL/null.md",
+            "/Database/Sql/Join/join.md",
+            "/Database/Sql/Groupby_OrderBy/groupby_orderBy.md"
           ],
         },
        
