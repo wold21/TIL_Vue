@@ -91,3 +91,7 @@ ORDER BY W.proj_id;
 > SELECT 실행순서  
 > FROM > WHERE > GROUP BY > HAVING > ORDER BY > SELECT  
 > 이 순서는 개념적인 순서이며 실제 실행 순서는 RDBMS마다 다를 수 있다.
+
+
+## 마무리
+일을 하면서 ORDER BY나 GROUP BY를 쓸때 실수하는 장면들을 꽤 많이 보았다. 쿼리에 대해서 이해를 못하는 사람도 있었지만 배움의 척도와는 다르게 자주 사용하지 않아서 그랬던 것 같다. 내가 작성하고 보았던 쿼리들은 대부분 ORDER BY정도로 끝마쳤던 것 같다. (통계빼고...) group by의 포인트는 기준이 되는 테이블에 적절하게 적용해야한다는 것이다. 
