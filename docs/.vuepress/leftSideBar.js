@@ -49,7 +49,8 @@ module.exports = [
             "/Database/Sql/NULL/null.md",
             "/Database/Sql/Join/join.md",
             "/Database/Sql/Groupby_OrderBy/groupby_orderBy.md",
-            "/Database/Sql/StoreFuction/store_fuction.md"
+            "/Database/Sql/StoreFuction/store_fuction.md",
+            "/Database/Sql/StoreProcedure/store_procedure.md"
           ],
         },
        
