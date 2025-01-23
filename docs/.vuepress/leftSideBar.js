@@ -35,7 +35,11 @@ module.exports = [
           collapsable: true,
           children: [
             "/Database/Database/intro/intro.md",
-            "/Database/Database/relation_database/relation_database.md"
+            "/Database/Database/relation_database/relation_database.md",
+            "/Database/Database/StoreFuction/store_fuction.md",
+            "/Database/Database/StoreProcedure/store_procedure_1.md",
+            "/Database/Database/StoreProcedure/store_procedure_2.md",
+            "/Database/Database/Trigger/trigger.md"
           ],
         },
         {
@@ -49,9 +53,6 @@ module.exports = [
             "/Database/Sql/NULL/null.md",
             "/Database/Sql/Join/join.md",
             "/Database/Sql/Groupby_OrderBy/groupby_orderBy.md",
-            "/Database/Sql/StoreFuction/store_fuction.md",
-            "/Database/Sql/StoreProcedure/store_procedure_1.md",
-            "/Database/Sql/StoreProcedure/store_procedure_2.md"
           ],
         },
        
