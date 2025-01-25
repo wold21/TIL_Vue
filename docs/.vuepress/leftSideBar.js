@@ -39,7 +39,8 @@ module.exports = [
             "/Database/Database/StoreFuction/store_fuction.md",
             "/Database/Database/StoreProcedure/store_procedure_1.md",
             "/Database/Database/StoreProcedure/store_procedure_2.md",
-            "/Database/Database/Trigger/trigger.md"
+            "/Database/Database/Trigger/trigger.md",
+            "/Database/Database/Transaction_Acid/transaction_acid.md",
           ],
         },
         {
