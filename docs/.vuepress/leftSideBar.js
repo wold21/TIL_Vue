@@ -41,6 +41,13 @@ module.exports = [
             "/Database/Database/StoreProcedure/store_procedure_2.md",
             "/Database/Database/Trigger/trigger.md",
             "/Database/Database/Transaction_Acid/transaction_acid.md",
+            {
+              title: "Concurrency",
+              collapsable: true,
+              children: [
+                "/Database/Database/Concurrency/1/schedule_serializability.md",
+              ],
+            },
           ],
         },
         {
