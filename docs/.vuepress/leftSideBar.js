@@ -46,6 +46,7 @@ module.exports = [
               collapsable: true,
               children: [
                 "/Database/Database/Concurrency/1/schedule_serializability.md",
+                "/Database/Database/Concurrency/2/recoverability.md",
               ],
             },
           ],
