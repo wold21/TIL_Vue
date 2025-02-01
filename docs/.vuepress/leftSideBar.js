@@ -42,6 +42,7 @@ module.exports = [
             "/Database/Database/Trigger/trigger.md",
             "/Database/Database/Transaction_Acid/transaction_acid.md",
             "/Database/Database/Isolation/isolation.md",
+            "/Database/Database/Lock/lock.md",
             {
               title: "Concurrency",
               collapsable: true,
