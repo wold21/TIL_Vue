@@ -51,6 +51,13 @@ module.exports = [
                 "/Database/Database/Concurrency/2/recoverability.md",
               ],
             },
+            {
+              title: "MVCC",
+              collapsable: true,
+              children: [
+                "/Database/Mvcc/1/mvcc_1.md"
+              ],
+            },
           ],
         },
         {
