@@ -55,7 +55,8 @@ module.exports = [
               title: "MVCC",
               collapsable: true,
               children: [
-                "/Database/Mvcc/1/mvcc_1.md"
+                "/Database/Mvcc/1/mvcc_1.md",
+                "/Database/Mvcc/2/mvcc_2.md"
               ],
             },
           ],
