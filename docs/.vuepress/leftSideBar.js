@@ -61,6 +61,13 @@ module.exports = [
                 "/Database/Mvcc/2/mvcc_2.md"
               ],
             },
+            {
+              title: "정규화",
+              collapsable: true,
+              children: [
+                "/Database/Database/Normalization/1/1.md"
+              ],
+            },
           ],
         },
         {
