@@ -65,7 +65,8 @@ module.exports = [
               title: "정규화",
               collapsable: true,
               children: [
-                "/Database/Database/Normalization/1/1.md"
+                "/Database/Database/Normalization/1/1.md",
+                "/Database/Database/Normalization/2/2.md"
               ],
             },
           ],
