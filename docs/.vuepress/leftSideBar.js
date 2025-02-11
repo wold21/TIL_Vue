@@ -40,17 +40,17 @@ module.exports = [
             "/Database/Database/StoreProcedure/store_procedure_1.md",
             "/Database/Database/StoreProcedure/store_procedure_2.md",
             "/Database/Database/Trigger/trigger.md",
-            "/Database/Database/TransactionAcid/transaction_acid.md",
-            "/Database/Database/Isolation/isolation.md",
-            "/Database/Database/Lock/lock.md",
             "/Database/Database/DBArchitecture/db_architecture.md",
-            "/Database/Database/FunctionalDependency/functional_dependency.md",
+            "/Database/Database/DBIndex/db_index.md",
             {
               title: "Concurrency",
               collapsable: true,
               children: [
                 "/Database/Database/Concurrency/1/schedule_serializability.md",
                 "/Database/Database/Concurrency/2/recoverability.md",
+                "/Database/Database/TransactionAcid/transaction_acid.md",
+                "/Database/Database/Isolation/isolation.md",
+                "/Database/Database/Lock/lock.md",
               ],
             },
             {
@@ -65,6 +65,7 @@ module.exports = [
               title: "정규화",
               collapsable: true,
               children: [
+                "/Database/Database/FunctionalDependency/functional_dependency.md",
                 "/Database/Database/Normalization/1/1.md",
                 "/Database/Database/Normalization/2/2.md"
               ],
