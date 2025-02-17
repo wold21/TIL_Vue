@@ -41,7 +41,6 @@ module.exports = [
             "/Database/Database/StoreProcedure/store_procedure_2.md",
             "/Database/Database/Trigger/trigger.md",
             "/Database/Database/DBArchitecture/db_architecture.md",
-            "/Database/Database/DBIndex/db_index.md",
             {
               title: "Concurrency",
               collapsable: true,
@@ -68,6 +67,20 @@ module.exports = [
                 "/Database/Database/FunctionalDependency/functional_dependency.md",
                 "/Database/Database/Normalization/1/1.md",
                 "/Database/Database/Normalization/2/2.md"
+              ],
+            },
+            {
+              title: "Index",
+              collapsable: true,
+              children: [
+                "/Database/Database/DBIndex/db_index.md",
+                {
+                  title: "B-tree",
+                  collapsable: true,
+                  children: [
+                    "/Database/Database/B-tree/1/1.md"
+                  ],
+                },
               ],
             },
           ],
