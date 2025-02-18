@@ -145,6 +145,7 @@ module.exports = [
       title: "🥅 JPA",
       collapsable: true,
       children: [
+        "/JPA/Summary/summary.md",
         "/JPA/Intro/Intro.md",
         "JPA/emf_jpql/emf_jpql.md",
         "JPA/persistence_manage/persistence_manage.md",
