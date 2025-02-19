@@ -79,7 +79,8 @@ module.exports = [
                   collapsable: true,
                   children: [
                     "/Database/Database/B-tree/1/1.md",
-                    "/Database/Database/B-tree/2/2.md"
+                    "/Database/Database/B-tree/2/2.md",
+                    "/Database/Database/B-tree/3/3.md"
                   ],
                 },
               ],
