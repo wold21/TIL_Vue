@@ -42,6 +42,7 @@ module.exports = [
             "/Database/Database/Trigger/trigger.md",
             "/Database/Database/DBArchitecture/db_architecture.md",
             "/Database/Database/PartioningShardingReplication/1.md",
+            "/Database/Database/DBCP/dbcp.md",
             {
               title: "Concurrency",
               collapsable: true,
