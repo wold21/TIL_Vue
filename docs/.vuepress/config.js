@@ -13,7 +13,7 @@ module.exports = {
   title: "코드를 부르자",
   description: "Hyuk's tech Blog",
   base: "/TIL_Vue/",
-  dest: "build",
+  dest: "dist",
   themeConfig: {
     smoothScroll: false,
     logo:
