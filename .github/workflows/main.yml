@@ -12,6 +12,9 @@ jobs:
       - name: Clean Yarn Cache
         run: yarn cache clean
 
+      - name: Remove old dist
+        run: rm -rf docs/.vuepress/dist
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
