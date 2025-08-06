@@ -23,10 +23,11 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: vuepress deploy
-        uses: jenkey2011/vuepress-deploy@master
-        env:
-          ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
-          TARGET_REPO: wold21/TIL_Vue
-          BUILD_SCRIPT: NODE_OPTIONS=--openssl-legacy-provider yarn build
-          BUILD_DIR: docs/.vuepress/dist/
+      - name: Build VuePress
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.TIL_TOKEN }}
+          publish_dir: docs/.vuepress/dist/
