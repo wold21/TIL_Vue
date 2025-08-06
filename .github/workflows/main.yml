@@ -4,26 +4,29 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout with full history
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        
-    - name: Clean Yarn Cache
-      run: yarn cache clean
+      - name: Checkout with full history
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
-    - name: Delete node_modules and yarn.lock
-      run: |
-        rm -rf node_modules
-        rm -f yarn.lock
+      - name: Clean Yarn Cache
+        run: yarn cache clean
 
-    - name: Install Dependencies
-      run: yarn install
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
-    - name: vuepress deploy
-      uses: jenkey2011/vuepress-deploy@1.6.1
-      env:
-        ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
-        TARGET_REPO: wold21/TIL_Vue
-        BUILD_SCRIPT: DEBUG=vuepress* yarn build
-        BUILD_DIR: build/
+      - name: Enable Corepack (Yarn Berry)
+        run: corepack enable
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: vuepress deploy
+        uses: jenkey2011/vuepress-deploy@1.6.1
+        env:
+          ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
+          TARGET_REPO: wold21/TIL_Vue
+          BUILD_SCRIPT: NODE_OPTIONS=--openssl-legacy-provider yarn build
+          BUILD_DIR: docs/.vuepress/dist/
