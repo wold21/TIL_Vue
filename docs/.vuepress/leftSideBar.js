@@ -211,6 +211,6 @@ module.exports = [
     {
       title: "🎡 Tech",
       collapsable: true,
-      children: ["/Tech/MSA/msa.md"],
+      children: ["/Tech/MSA/msa.md", "/Tech/RESTAPI/rest_api.md"],
     }
   ];
