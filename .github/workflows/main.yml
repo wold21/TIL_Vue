@@ -24,7 +24,7 @@ jobs:
         run: yarn install
 
       - name: vuepress deploy
-        uses: jenkey2011/vuepress-deploy@1.6.1
+        uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.TIL_TOKEN }}
           TARGET_REPO: wold21/TIL_Vue
